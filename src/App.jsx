@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import NavComponent from './Nav.jsx';
 import './App.css';
 import './Nav.css';

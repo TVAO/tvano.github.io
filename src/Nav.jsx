@@ -1,9 +1,15 @@
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const NavComponent = React.createClass({
-  render: function(){
+class NavComponent extends React.Component {
+
+  /*
+  constructor(props) {
+    super(props);
+  }
+  */
+ 
+  render() {
     return (
       <nav className="navbar navbar-default navbar-fixed-top">
         <div className="container-fluid">
@@ -17,6 +23,6 @@ const NavComponent = React.createClass({
       </nav>
     );
   }
-});
+};
 
 export default NavComponent;
