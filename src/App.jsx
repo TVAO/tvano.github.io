@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import NavComponent from './Nav.jsx';
+import ContentComponent from './Content.jsx'
 import './App.css';
 import './Nav.css';
+import './Content.css';
 
 class App extends Component {
   render() {
@@ -10,9 +12,9 @@ class App extends Component {
         <div className="App-header">
             <NavComponent />
         </div>
-        <p className="App-content">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-content">
+            <ContentComponent />
+        </div>
       </div>
     );
   }
