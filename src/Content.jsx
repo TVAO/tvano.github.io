@@ -11,7 +11,7 @@ class ContentComponent extends Component {
             src="Thor.jpg"/>
           <h1 className="text-center"> Hi! My name is Thor </h1>
           <h2 className="text-center text-muted"> ... and I build things </h2>
-          <ul class="inline text-center">
+          <ul className="inline text-center">
             <li>
               <a href="mailto:thorolesen14@gmail.com">
                 <b> Email </b>
