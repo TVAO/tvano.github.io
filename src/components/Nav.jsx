@@ -1,14 +1,8 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 
-class NavComponent extends React.Component {
+class NavComponent extends Component {
 
-  /*
-  constructor(props) {
-    super(props);
-  }
-  */
- 
   render() {
     return (
       <nav className="navbar navbar-default navbar-fixed-top">
