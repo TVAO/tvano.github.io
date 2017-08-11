@@ -2,16 +2,3 @@
 .App {
   text-align: center;
 }
-
-.header {
-  margin-top: 60px; /* Add top margin to avoid content overlay */
-}
-
-.App-content {
-
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}

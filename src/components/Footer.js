@@ -3,9 +3,9 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="footer">
-      <p className="text-muted">
-        Footer
-      </p>
+      <div id="footer-content">
+        Sticky Footer 
+      </div>
   </footer>
 );
 
