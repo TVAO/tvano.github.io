@@ -1,0 +1,12 @@
+
+import React from 'react';
+
+const Footer = () => (
+  <footer className="footer">
+      <p className="text-muted">
+        Footer
+      </p>
+  </footer>
+);
+
+export default Footer;

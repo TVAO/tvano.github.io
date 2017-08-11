@@ -1,23 +1,31 @@
 
 /* Top navigation bar */
 
+ul {
+  list-style: none;
+  display: inline;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+    padding: 0px 10px;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #2b7ccf;
   position: fixed; /* Fix the navbar position */
   top: 0; /* Position navbar at top of page */
   width: 100%; /* Full width */
-}
-
-/* Links inside navbar */
-.navbar a {
-  display: block;
+  padding: 5px;
   float: right;
-  color: #f2f2f2;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-.navbar .leftItem {
+.navbar .leftHeader {
   float: left;
+}
+
+.navbar .rightHeader {
+  float: right;
 }
