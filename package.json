@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tvao.github.io/portfolio",
+  "homepage": "https://tvao.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0"

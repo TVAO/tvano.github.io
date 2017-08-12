@@ -6,6 +6,7 @@ import App from './components/App';
 import './styles/index.css';
 import registerServiceWorker from './registerServiceWorker';
 
+/* Replace HashRouter with BrowserRouter for dynamic routing */
 ReactDOM.render(
   <BrowserRouter>
     <App />
