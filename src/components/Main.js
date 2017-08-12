@@ -9,7 +9,7 @@ const Main = () => (
       <img className="img-circle" alt="TVANO" id="picture"
         src="Thor.jpg"/>
       <h1 className="text-center"> Hi! My name is Thor </h1>
-      <h2 className="text-center text-muted"> ... and I build things </h2>
+      <h2 className="text-center text-muted"> ... and I build for the web </h2>
       <ul className="inline text-center">
         <li>
           <a href="mailto:thorolesen14@gmail.com">
