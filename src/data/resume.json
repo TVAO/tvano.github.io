@@ -1,5 +1,5 @@
 {
-    "content": {
+    "about": {
         "name": "Thor Valentin Aakjaer Nielsen Olesen",
         "label": "Software Developer",
         "picture": "Thor.img",
@@ -51,27 +51,34 @@
                 "<HIGHTLIGHT_2>",
                 "<HIGHTLIGHT_3>"
             ]
-        }
-    ],
-    "volunteer": [
+        },
         {
-            "organization": "<ORGANIZATION_NAME>",
-            "position": "<POSITION>",
-            "website": "<WEBSITE>",
-            "startDate": "<START_DATE>",
-            "endDate": "<END_DATE>",
-            "summary": "<SUMMARY>",
-            "highlights": [
-                "<HIGHTLIGHT_1>",
-                "<HIGHTLIGHT_2>",
-                "<HIGHTLIGHT_3>"
+            "company": "ITU",
+            "position": "Teaching Assistant",
+            "website": "https://www.itu.dk",
+            "startDate": "Fall 2016",
+            "summary": "Helped students learn how to apply the functional paradigm in F#. Teached students on different software project management methodologies and frameworks including agile and SCRUM.",
+            "courses": [
+              "Functional Programming (F#)",
+              "Software Project Management (Agile & SCRUM)"
+            ]
+        },
+        {
+            "company": "ITU",
+            "position": "Teaching Assistant",
+            "website": "https://www.itu.dk",
+            "startDate": "Autumn 2017",
+            "summary": "Helped students learn about and build compilers in F# supporting a micro ML and micro C language. Teached students about networks principles and how to build networks in Java (P2P, sockets etc.)",
+            "courses": [
+              "Programs as Data (F#)",
+              "Mobile Networks and Distributed Systems"
             ]
         }
     ],
     "education": [
         {
             "institution": "ITU",
-            "area": "Software Development",
+            "area": "B.S.c in Software Development",
             "studyType": "<STUDY_TYPE>",
             "startDate": "2014",
             "endDate": "2017",
@@ -82,17 +89,23 @@
                 "<COURSE_2>",
                 "<COURSE_3>"
             ]
-        }
-    ],
-    "awards": [
+        },
         {
-            "title": "<AWARD_TITLE>",
-            "date": "<DATE>",
-            "awarder": "<AWARDER>",
-            "summary": "<SUMMARY>"
+            "institution": "ITU",
+            "area": "M.S.c. in Software Development",
+            "studyType": "<STUDY_TYPE>",
+            "startDate": "2017",
+            "endDate": "2019",
+            "gpa": "<GRADE_POINT_AVERAGE>",
+            "summary": "<SUMMARY>",
+            "courses": [
+                "<COURSE_1>",
+                "<COURSE_2>",
+                "<COURSE_3>"
+            ]
         }
     ],
-    "projects": [
+    "portfolio": [
         {
             "name": "<PUBLICATION_NAME>",
             "publisher": "<PUBLISHER>",
@@ -130,30 +143,6 @@
                     ]
                 }
             ]
-        }
-    ],
-    "languages": [
-        {
-            "name": "<LANGUAGE_NAME>",
-            "level": "<LANGUAGE_LEVEL>"
-        }
-    ],
-    "interests": [
-        {
-            "name": "<INTEREST_NAME>",
-            "keywords": [
-                "<KEYWORD_1>",
-                "<KEYWORD_2>",
-                "<KEYWORD_3>"
-            ]
-        }
-    ],
-    "references": [
-        {
-            "name": "<REFERENCE_NAME>",
-            "position": "<POSITION>",
-            "company": "<COMPANY>",
-            "reference": "<SUMMARY>"
         }
     ]
 }

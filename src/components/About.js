@@ -7,7 +7,7 @@ const About = ({props}) => (
 
     <div className="row">
       <h2> About Me </h2>
-      {props.content.summary.map((content, index) => {
+      {props.summary.map((content, index) => {
         return (
           <p key={index}>
             {content}
@@ -19,7 +19,7 @@ const About = ({props}) => (
     <div className="row" id="traits">
       <h2> Characteristics </h2>
       <ol>
-        {props.content.characteristics.map((trait, index) => {
+        {props.characteristics.map((trait, index) => {
           return (
             <li key={index}> {trait} </li>
           );
@@ -30,16 +30,16 @@ const About = ({props}) => (
     <div className="row">
       <h2> Contact Details </h2>
       <p className="address">
-        <span>{props.content.location.region}</span>
+        <span>{props.location.region}</span>
         <br/>
-        <span>{props.content.location.countryCode}</span>
+        <span>{props.location.countryCode}</span>
         <br/>
-        <a href={'skype:' + props.content.phone}>
-          <span>{props.content.phone}</span>
+        <a href={'skype:' + props.phone}>
+          <span>{props.phone}</span>
         </a>
         <br/>
-        <a href={"mailto:" + props.content.email}>
-          <span>{props.content.email}</span>
+        <a href={"mailto:" + props.email}>
+          <span>{props.email}</span>
         </a>
       </p>
     </div>

@@ -37,11 +37,11 @@ const Routes = ({props}) => (
   <main className="content">
     <Switch>
       <PropsRoute exact path='/' component={Main} props={props}/>
-      <PropsRoute exact path='/about' component={About} props={props}/>
-      <PropsRoute exact path='/work' component={Work} props={props}/>
-      <PropsRoute exact path='/portfolio' component={Portfolio} props={props}/>
-      <PropsRoute exact path='/education' component={Education} props={props}/>
-      <PropsRoute exact path='/skills' component={Skills} props={props}/>
+      <PropsRoute exact path='/about' component={About} props={props.about}/>
+      <PropsRoute exact path='/work' component={Work} props={props.work}/>
+      <PropsRoute exact path='/portfolio' component={Portfolio} props={props.portfolio}/>
+      <PropsRoute exact path='/education' component={Education} props={props.education}/>
+      <PropsRoute exact path='/skills' component={Skills} props={props.skills}/>
       <PropsRoute component={NotFound}/>
     </Switch>
   </main>
