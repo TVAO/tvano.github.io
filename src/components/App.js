@@ -7,10 +7,15 @@ import '../styles/app.css';
 import '../styles/header.css';
 import '../styles/footer.css';
 
-const App = () => (
+//import * as DATA from '../data/resume.json';
+//const DATA = require('../data/resume.json');
+
+const App = ({props}) => (
+
   <div className="App">
     <Header />
     <Routes />
+    <h1> {props.basics.name} </h1>
     <Footer />
   </div>
 )

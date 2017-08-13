@@ -1,5 +1,6 @@
 
-{ "about" : [
+{
+  "about" : [
     "I am a passionate software engineer with a strong interest in software development, entrepreneurship and leadership, trying to bridge the gap between IT, business and people.",
     "Thorough hands-on experience with object-oriented programming (OOP), functional programming, testing (unit and integration) and IT project management (i.e. Agile and Scrum).",
     "Skilled in C#, F#, ASP .NET Core and Java (including Android app development). Strong learning interest in web development including Javascript (React and Elm) and Python (Flask, Elixir).",

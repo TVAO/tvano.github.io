@@ -6,10 +6,12 @@ import App from './components/app';
 import './styles/index.css';
 import registerServiceWorker from './registerServiceWorker';
 
-/* Replace HashRouter with BrowserRouter for dynamic routing */
+const profileData = require('./data/resume.json');
+//import * as profileData from './data/resume.json';
+
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <App props={profileData}/>
   </BrowserRouter>,
   document.getElementById('root')
 );
