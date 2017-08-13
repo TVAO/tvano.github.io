@@ -1,6 +1,5 @@
-
 import React from 'react';
-//import data from '../data/about.json';
+import '../styles/about.css';
 
 const About = () => (
 
