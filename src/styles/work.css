@@ -1,1 +1,52 @@
+#work {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 0px;
+   overflow: hidden;
+}
 
+#work a, #work a:visited  { color: #313131; }
+#work a:hover, #work a:focus { color: #11ABB0; }
+
+#work h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#work h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#work h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#work .header-col { padding-top: 9px; }
+#work .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#work .info {
+   font: 15px/24px 'librebaskerville-regular', sans-serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#work .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#work .info-summary {
+   font: 15px/24px 'librebaskerville-regular', sans-serif;
+   margin-top: 6px;
+}
+#work .date {
+   font: 15px/24px 'librebaskerville-regular', sans-serif;
+   margin-top: 6px;
+}
+#work .point {
+   margin: 0 0 10px 0;
+}

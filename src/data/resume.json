@@ -61,6 +61,11 @@
             "courses": [
               "Functional Programming (F#)",
               "Software Project Management (Agile & SCRUM)"
+            ],
+            "highlights": [
+                "<HIGHTLIGHT_1>",
+                "<HIGHTLIGHT_2>",
+                "<HIGHTLIGHT_3>"
             ]
         },
         {
@@ -72,6 +77,11 @@
             "courses": [
               "Programs as Data (F#)",
               "Mobile Networks and Distributed Systems"
+            ],
+            "highlights": [
+                "<HIGHTLIGHT_1>",
+                "<HIGHTLIGHT_2>",
+                "<HIGHTLIGHT_3>"
             ]
         }
     ],
