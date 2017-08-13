@@ -28,4 +28,14 @@ a {
 
 .navbar .rightHeader {
   float: right;
+  margin-right: 40px;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
 }

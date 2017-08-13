@@ -10,7 +10,7 @@ const Header = () => (
       <ul>
         <li className="leftHeader">  <Link to='/'> TVAO.IO </Link> </li>
         <li className="rightHeader"> <Link to='/about'> About </Link> </li>
-        <li className="rightHeader"> <Link to='/projects'> Projects </Link> </li>
+        <li className="rightHeader"> <Link to='/portfolio'> Portfolio </Link> </li>
         <li className="rightHeader"> <Link to='/cv'> CV </Link> </li>
       </ul>
     </div>

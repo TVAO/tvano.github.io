@@ -5,7 +5,7 @@ import About from './About';
 import CV from './CV';
 import NotFound from './NotFound';
 import Main from './Main';
-import Project from './Project';
+import Portfolio from './Portfolio';
 
 import '../styles/Content.css';
 
@@ -15,7 +15,7 @@ const Content = () => (
       <Route exact path='/' component={Main}/>
       <Route exact path='/about' component={About}/>
       <Route exact path='/cv' component={CV}/>
-      <Route exact path='/projects' component={Project}/>
+      <Route exact path='/portfolio' component={Portfolio}/>
       <Route path='*' component={NotFound}/>
     </Switch>
   </main>
