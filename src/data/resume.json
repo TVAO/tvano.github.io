@@ -1,20 +1,33 @@
 {
-    "basics": {
+    "content": {
         "name": "Thor Valentin Aakjaer Nielsen Olesen",
         "label": "Software Developer",
         "picture": "Thor.img",
         "email": "thorolesen14@gmail.com",
-        "phone": "20 56 52 53",
+        "phone": "+4520565253",
         "website": "https://tvao.github.io",
         "summary": [
-            "<SUMMARY_1>",
-            "<SUMMARY_2>",
-            "<SUMMARY_3>"
+          "I am a passionate software engineer with a strong interest in software development, entrepreneurship and leadership, trying to bridge the gap between IT, business and people.",
+          "Supportive and enthusiastic team player with strong communication skills dedicated to streamlining processes, efficiently resolving project issues and motivating team-members.",
+          "Strong research professional with a Bachelor of Science (BSc) in Software Engineering from the University of IT in Copenhagen."
+        ],
+        "skills": [
+          "Skilled in C#, F#, ASP .NET Core and Java (including Android app development).",
+          "Strong learning interest in web development including Javascript (React and Elm) and Python (Flask, Elixir).",
+          "Thorough hands-on experience with object-oriented programming (OOP), functional programming, testing (unit and integration) and IT project management (i.e. Agile and Scrum).",
+          "Experienced teaching assistant with a demonstrated history in functional programming and IT project management."
+        ],
+        "characteristics" : [
+          "Team leader, supporter and motivator",
+          "Curious, passionate and proactive",
+          "Listener, emphatic and open-minded",
+          "Strong work ethic and self-discipline",
+          "Decision-maker, solution-orientated and goal-driven"
         ],
         "location": {
             "postalCode": "2720",
             "city": "Vanloese",
-            "countryCode": "DK",
+            "countryCode": "Denmark",
             "region": "Copenhagen"
         },
         "profiles": [
