@@ -52,7 +52,7 @@
             ]
         },
         {
-            "company": "ITU",
+            "company": "IT University of Copenhagen",
             "position": "Teaching Assistant",
             "website": "https://www.itu.dk",
             "startDate": "Fall 2016",
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "company": "ITU",
+            "company": "IT University of Copenhagen",
             "position": "Teaching Assistant",
             "website": "https://www.itu.dk",
             "startDate": "Autumn 2017",
@@ -77,9 +77,9 @@
               "Mobile Networks and Distributed Systems"
             ],
             "highlights": [
-                "Helped students learn about different programming paradigms and compilers.",
+                "Helped students learn about different programming paradigms, compilers and distributed network systems.",
                 "Built compilers in F# supporting a micro version of the ML and C language.",
-                "Teached students about networks principles and how to build networks in Java (P2P, sockets etc.)"
+                "Teached students about networks principles and how to build distributed systems in Java."
             ]
         }
     ],

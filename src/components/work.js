@@ -14,7 +14,7 @@ const Entry = ({key, entry, index, total}) => {
             <a href={entry.website}> {entry.company} </a>
           </h3>
           <p className="info">
-            {entry.position}
+            <b>{entry.position}</b> @ <a href={entry.website}> {entry.company} </a>
             <span> &bull; </span>
             <em className="date"> {entry.startDate} { entry.endDate ? `- ${entry.endDate}` : "" } </em>
           </p>

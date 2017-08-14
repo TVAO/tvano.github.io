@@ -12,6 +12,8 @@ const Courses = ({props}) => (
             {course.ects}
           </span>
           <b> {course.title} </b>
+          <span> &bull; </span>
+          <a href={course.project}> Project Link </a>
         </li>
       })}
     </ul>
@@ -25,6 +27,11 @@ const Entry = ({props}) => (
         <b>{props.degree}</b> @ <a href={props.url}> {props.institution} </a>
         <em className="date"> {props.startDate} - {props.endDate} </em>
       </p>
+      <div className="center">
+      <p className="info-summary">
+        {props.summary}
+      </p>
+      </div>
     </div>
     <Courses props={props.courses}/>
   </div>

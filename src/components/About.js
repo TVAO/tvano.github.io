@@ -18,13 +18,13 @@ const About = ({props}) => (
 
     <div className="row" id="traits">
       <h2> Characteristics </h2>
-      <ol>
+      <ul className="fa-ul">
         {props.characteristics.map((trait, index) => {
           return (
-            <li key={index}> {trait} </li>
+            <li key={index}> <i className="fa fa-check-square"> {trait} </i> </li>
           );
         })}
-      </ol>
+      </ul>
     </div>
 
     <div className="row">

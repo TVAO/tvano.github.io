@@ -2,3 +2,15 @@
 #traits li {
   display: block;
 }
+
+#about {
+  width:500px;
+  text-align: justify;
+  display: inline-block;
+
+}
+
+#about a {
+  padding: 0px;
+
+}
