@@ -10,9 +10,6 @@ const Entry = ({key, entry, index, total}) => {
   return (
     <div className="row item">
         <div className="twelve columns">
-          <h3>
-            <a href={entry.website}> {entry.company} </a>
-          </h3>
           <p className="info">
             <b>{entry.position}</b> @ <a href={entry.website}> {entry.company} </a>
             <span> &bull; </span>

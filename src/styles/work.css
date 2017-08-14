@@ -2,6 +2,7 @@
 #work a, #work a:visited  { color: #313131; }
 #work a:hover, #work a:focus { color: #11ABB0; }
 
+/*
 #left_column {
      float: left;
      position: absolute;
@@ -16,6 +17,9 @@
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
+*/
+
+
 #work h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }

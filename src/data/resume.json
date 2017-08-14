@@ -7,9 +7,9 @@
         "phone": "+4520565253",
         "website": "https://tvao.github.io",
         "summary": [
-          "I am a passionate software engineer with a strong interest in software development, entrepreneurship and leadership, trying to bridge the gap between IT, business and people.",
-          "Supportive and enthusiastic team player with strong communication skills dedicated to streamlining processes, efficiently resolving project issues and motivating team-members.",
-          "Strong research professional with a Bachelor of Science (BSc) in Software Engineering from the University of IT in Copenhagen."
+          "I am a passionate software engineer, located in Copenhagen, with a strong interest in software development, entrepreneurship and leadership, trying to bridge the gap between IT, business and people.",
+          "I am a supportive and enthusiastic team player with strong communication skills, dedicated to streamlining processes, efficiently resolving project issues and motivating people in software projects.",
+          "I have a strong research background with a Bachelor of Science (BSc) in Software Engineering from the University of IT in Copenhagen."
         ],
         "skills": [
           "Skilled in C#, F#, ASP .NET Core and Java (including Android app development).",
@@ -47,8 +47,8 @@
             "endDate": "2017",
             "summary": "",
             "highlights": [
-                "C# developer working in production on IAG and IAM product solutions offered by Omada. ",
-                "I worked with testing, development, bug reproduction and bug fixing."
+                "C# developer working on IAG and IAM products offered by Omada. ",
+                "I worked with unit testing, development, coded UI testing & bug fixing."
             ]
         },
         {
@@ -62,8 +62,8 @@
               "Software Project Management (Agile & SCRUM)"
             ],
             "highlights": [
-                "Helped students learn how to apply the functional paradigm in F#.",
-                "Teached software project management methodologies and frameworks (agile SCRUM)."
+                "Helped students learn the functional paradigm in F#.",
+                "Teached software project management methodologies."
             ]
         },
         {
@@ -77,9 +77,8 @@
               "Mobile Networks and Distributed Systems"
             ],
             "highlights": [
-                "Helped students learn about different programming paradigms, compilers and distributed network systems.",
-                "Built compilers in F# supporting a micro version of the ML and C language.",
-                "Teached students about networks principles and how to build distributed systems in Java."
+                "Teached about programming paradigms, compilers and distributed network systems.",
+                "Built micro C/ML compilers in F# and distributed network systems in Java"
             ]
         }
     ],

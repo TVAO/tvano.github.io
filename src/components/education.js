@@ -3,9 +3,9 @@ import '../styles/education.css';
 
 const Courses = ({courses}) => (
   <section id="courses">
-    <ul>
+    <ul className="list-group">
       {courses.map((course, index) => {
-        <li key={index}> {course.title} {course.ects} </li>
+        <li key={index} className="list-group-item"> {course.title} {course.ects} </li>
       })}
     </ul>
   </section>
