@@ -4,6 +4,7 @@
 
 #left_column {
      float: left;
+     position: absolute;
 }
 
 #work h1 {
