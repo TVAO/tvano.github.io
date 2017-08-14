@@ -21,7 +21,7 @@ const About = ({props}) => (
       <ul className="fa-ul">
         {props.characteristics.map((trait, index) => {
           return (
-            <li key={index}> <i className="fa fa-check-square"> {trait} </i> </li>
+            <li key={index}> <i className="fa fa-check-circle"> {trait} </i> </li>
           );
         })}
       </ul>
