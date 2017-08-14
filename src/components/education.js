@@ -1,7 +1,17 @@
 import React from 'react';
 import '../styles/education.css';
 
+const Courses = ({courses}) => (
+  <section id="courses">
+    <ul>
+      {courses.map((course, index) => {
+        <li key={index}> {course.title} {course.ects} </li>
+      })}
+    </ul>
+  </section>
+);
 
+/*
 const Courses = ({props}) => (
   <section id="courses">
     <h3> Courses </h3>
@@ -19,21 +29,22 @@ const Courses = ({props}) => (
     </ul>
   </section>
 );
+*/
 
-const Entry = ({props}) => (
+const Entry = ({education}) => (
   <div className="row item">
     <div className="twelve columns">
       <p className="info">
-        <b>{props.degree}</b> @ <a href={props.url}> {props.institution} </a>
-        <em className="date"> {props.startDate} - {props.endDate} </em>
+        <b>{education.degree}</b> @ <a href={education.url}> {education.institution} </a>
+        <em className="date"> {education.startDate} - {education.endDate} </em>
       </p>
       <div className="center">
       <p className="info-summary">
-        {props.summary}
+        {education.summary}
       </p>
       </div>
     </div>
-    <Courses props={props.courses}/>
+    <Courses courses={education.courses}/>
   </div>
 );
 
@@ -48,7 +59,7 @@ const Education = ({props}) => (
       <div className="ten columns main-col">
         {props.map((education, index) => {
           return (
-            <Entry key={index} props={education}/>
+            <Entry key={index} education={education}/>
           );
         })}
       </div>
