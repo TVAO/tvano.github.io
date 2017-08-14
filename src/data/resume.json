@@ -85,33 +85,147 @@
     ],
     "education": [
         {
-            "institution": "ITU",
-            "area": "B.S.c in Software Development",
-            "studyType": "<STUDY_TYPE>",
+            "institution": "IT University of Copenhagen",
+            "degree": "B.S.c in Software Development",
+            "url": "https://www.itu.dk",
             "startDate": "2014",
             "endDate": "2017",
-            "gpa": "<GRADE_POINT_AVERAGE>",
-            "summary": "<SUMMARY>",
+            "summary": "The three-year B.Sc. in Software Development teaches design and programming of software, but also communication, presentation and business. This combination of disciplines provides the qualifications for developing and designing IT solutions, as well as providing consultation for businesses and organisations on a given solution.",
             "courses": [
-                "<COURSE_1>",
-                "<COURSE_2>",
-                "<COURSE_3>"
+                {
+                  "title": "Discrete Mathematics",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Project Work and Communication",
+                  "ects": "15"
+                },
+                {
+                  "title": "Introductory Programming (Java with Cinema project)",
+                  "ects": "7.5",
+                  "project": "https://github.com/tvao/"
+                },
+                {
+                  "title": "Systematic Design of User Interfaces",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Algorithms and Data Structures",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "First-year Project (Navigation and Maps in Java)",
+                  "ects": "15",
+                  "project": "https://github.com/tvao/FirstYearNavigationProject"
+                },
+                {
+                  "title": "Introduction to Database Design (Relational SQL)",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Mobile and Distributed Systems (Java)",
+                  "ects": "7.5",
+                  "project": "https://github.com/tvao/MODIS15"
+                },
+                {
+                  "title": "Analysis, Design and Software Architecture (C#)",
+                  "ects": "15",
+                  "project": "https://github.com/BDSA-2015/"
+                },
+                {
+                  "title": "Mobile App Development (Java Android)",
+                  "ects": "7.5",
+                  "project": "https://github.com/tvao/MMAD16"
+                },
+                {
+                  "title": "Functional Programming (F#)",
+                  "ects": "7.5",
+                  "project": "https://github.com/BFNP16"
+                },
+                {
+                  "title": "System Development and Project Organization",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Second Year Project (Raytracer in F#)",
+                  "ects": "7.5",
+                  "project": "https://github.com/tvao/RayTracerSecondYearProject"
+                },
+                {
+                  "title": "Programming Languages @ AUT New Zealand A+",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "IT Project Management @ AUT New Zealand A+",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Thesis: how developers may comply with the EU GDPR directive",
+                  "ects": "15",
+                  "project": "https://github.com/tvao/BachelorProject"
+                },
+                {
+                  "title": "Security",
+                  "ects": "7.5",
+                  "project": "https://github.com/tvao/SecurityCourseProject"
+                },
+                {
+                  "title": "Philosophy of Science",
+                  "ects": "7.5"
+                }
             ]
         },
         {
-            "institution": "ITU",
-            "area": "M.S.c. in Software Development",
-            "studyType": "<STUDY_TYPE>",
+            "institution": "IT University of Copenhagen",
+            "degree": "M.S.c in Software Development",
+            "url": "https://www.itu.dk",
             "startDate": "2017",
             "endDate": "2019",
-            "gpa": "<GRADE_POINT_AVERAGE>",
-            "summary": "<SUMMARY>",
+            "summary": "The two-year M.Sc. in Software Development builds on more advanced softare engineering topics. This includes algorithm design, parallel and concurrent programming, business analytics and advanced software architecture.",
             "courses": [
-                "<COURSE_1>",
-                "<COURSE_2>",
-                "<COURSE_3>"
+                {
+                  "title": "Practical Concurrent and Parallel Programming (Java)",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Algorithm Design",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Big Data Management (Specialization)",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Software Architecture (Specialization)",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Advanced Programming (Scala)",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Intelligent Systems Programming",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Data Mining",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Frameworks and Architectures for the Web (HTML, CSS, JS, Angular, React)",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Thesis Preparation",
+                  "ects": "7.5"
+                },
+                {
+                  "title": "Thesis",
+                  "ects": "30"
+                }
             ]
         }
+
     ],
     "portfolio": [
         {
