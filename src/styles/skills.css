@@ -1,0 +1,97 @@
+
+/*
+Using Modern CSS to Build a Responsive Image Grid:
+https://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/
+ */
+
+.skills body {
+  width: 80%;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+
+.skills h3 {
+  text-align: center;
+  font-size: 1.65em;
+  margin: 0 0 30px;
+}
+
+.skills div {
+  /*display: flex;*/
+  flex-wrap: wrap;
+}
+
+.skills a {
+  display: inline-block;
+  margin-bottom: 8px;
+  /* width: calc(50% - 4px); */
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.skills a {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.skills a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.skills @media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+
+.skills a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+
+.skills a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+.skills a:hover img {
+  transform: scale(1.15);
+}
+
+.skills figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+.skills figcaption {
+  margin-top: 15px;
+}
+
+.skills img {
+  border: none;
+  max-width: 50%;
+  height: auto;
+  /*display: block;*/
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+.skills img {
+  width: 200px;
+  height: 100px; }
+
+.skills .p a {
+  /*display: inline;*/
+  font-size: 13px;
+  margin: 0;
+  text-decoration: underline;
+  color: blue;
+}
+
+.skills .p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
+}
