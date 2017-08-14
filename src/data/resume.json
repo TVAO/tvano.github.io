@@ -45,11 +45,10 @@
             "website": "https://www.omada.dk",
             "startDate": "2014",
             "endDate": "2017",
-            "summary": "C# developer working in production with IAG and IAM product solutions offered by Omada. I worked with testing, development and bug fixing.",
+            "summary": "",
             "highlights": [
-                "<HIGHTLIGHT_1>",
-                "<HIGHTLIGHT_2>",
-                "<HIGHTLIGHT_3>"
+                "C# developer working in production on IAG and IAM product solutions offered by Omada. ",
+                "I worked with testing, development, bug reproduction and bug fixing."
             ]
         },
         {
@@ -57,15 +56,14 @@
             "position": "Teaching Assistant",
             "website": "https://www.itu.dk",
             "startDate": "Fall 2016",
-            "summary": "Helped students learn how to apply the functional paradigm in F#. Teached students on different software project management methodologies and frameworks including agile and SCRUM.",
+            "summary": "",
             "courses": [
               "Functional Programming (F#)",
               "Software Project Management (Agile & SCRUM)"
             ],
             "highlights": [
-                "<HIGHTLIGHT_1>",
-                "<HIGHTLIGHT_2>",
-                "<HIGHTLIGHT_3>"
+                "Helped students learn how to apply the functional paradigm in F#.",
+                "Teached software project management methodologies and frameworks (agile SCRUM)."
             ]
         },
         {
@@ -73,15 +71,15 @@
             "position": "Teaching Assistant",
             "website": "https://www.itu.dk",
             "startDate": "Autumn 2017",
-            "summary": "Helped students learn about and build compilers in F# supporting a micro ML and micro C language. Teached students about networks principles and how to build networks in Java (P2P, sockets etc.)",
+            "summary": "",
             "courses": [
               "Programs as Data (F#)",
               "Mobile Networks and Distributed Systems"
             ],
             "highlights": [
-                "<HIGHTLIGHT_1>",
-                "<HIGHTLIGHT_2>",
-                "<HIGHTLIGHT_3>"
+                "Helped students learn about different programming paradigms and compilers.",
+                "Built compilers in F# supporting a micro version of the ML and C language.",
+                "Teached students about networks principles and how to build networks in Java (P2P, sockets etc.)"
             ]
         }
     ],

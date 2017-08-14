@@ -1,10 +1,11 @@
 import React from 'react';
 import BulletPoints from '../components/bullet_points';
+import '../styles/work.css';
 
 const Entry = ({key, entry, index, total}) => {
 
   const newIndex = index + 1;
-  const divider = newIndex === total ? (<br/>) : (<hr/>);
+  const divider = newIndex === total ? (<br/>) : (<hr width="50%"/>);
 
   return (
     <div className="row item">
@@ -30,12 +31,12 @@ const Work = ({props}) => {
   return (
     <section id="work">
       <div className="row work">
-        <div className="two columns header-col">
+        <div className="two columns header-col" id="left_column">
           <h1>
             <span> Work </span>
           </h1>
         </div>
-        <div className="ten columns main-col">
+        <div className="ten columns main-col" id="right_column">
           {props.map((entry, index) => {
             return (
                 <Entry key={index} entry={entry} index={index} total={numEntries}/>
