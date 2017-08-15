@@ -14,8 +14,8 @@ class Portfolio extends Component {
         <div id="my-github-projects">
           <h1> Portfolio </h1>
           <ul className="list-group list-unstyled small">
-            {this.state.repos.map((repo => {
-              return <li className="list-group-item repo-item">
+            {this.state.repos.map(((repo, index) => {
+              return <li key={index} className="list-group-item repo-item">
                 <a href={repo.html_url}> <b> {repo.name} </b> </a>
                 <br></br>
               </li>

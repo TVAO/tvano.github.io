@@ -7,37 +7,18 @@
 
 }
 
-.list-unstyled, ul.inline {
-  padding-left: 0;
-  list-style: none;
+#my-github-projects {
+  text-align: center;
 }
 
-.pull-right {
-  float: right;
+#my-github-projects li {
+  display:inline-grid;
+  text-align: left;
 }
 
-ul {
-  display: block;
-}
-
-b {
-  font-weight: 500;
-}
-
-li {
-  display: list-item;
-}
-
-.repo-item:first-child {
-  border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-}
-
+/*
 .repo-item {
   padding: .85rem 1.25 rem;
   border: 1px solid #eee;
 }
-
-*, :after :before {
-  box-sizing: inherit;
-}
+*/
