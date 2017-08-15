@@ -1,0 +1,43 @@
+
+#my-github-projects .list-group {
+
+}
+
+#my-github-projects .list-group .list-group-item {
+
+}
+
+.list-unstyled, ul.inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.pull-right {
+  float: right;
+}
+
+ul {
+  display: block;
+}
+
+b {
+  font-weight: 500;
+}
+
+li {
+  display: list-item;
+}
+
+.repo-item:first-child {
+  border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.repo-item {
+  padding: .85rem 1.25 rem;
+  border: 1px solid #eee;
+}
+
+*, :after :before {
+  box-sizing: inherit;
+}

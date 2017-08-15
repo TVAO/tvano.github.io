@@ -4,7 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './components/app';
 
 import './styles/index.css';
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import registerServiceWorker from './registerServiceWorker';
 
 const profileData = require('./data/resume.json');
