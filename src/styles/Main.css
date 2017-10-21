@@ -10,7 +10,7 @@ main .top {
 #picture {
   width: 200px;
   height: 200px;
-  padding: 70px;
+  padding: 70px 0;
 }
 
 html {
